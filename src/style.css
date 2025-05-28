@@ -1,0 +1,59 @@
+#picker {
+      user-select: none;
+    }
+
+    #locationPicker {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+      height: 30vh;
+      width: 35vw;
+    }
+
+    #infos {
+      position: fixed;
+      background-color: black;
+      height: 30px;
+      width: 35vw;
+      z-index: 11;
+      right: 0;
+      bottom: 30vh;
+      color: white;
+    }
+
+    #infos p {
+      display: inline-block;
+      margin: 5px;
+    }
+
+    #submit {
+      display: inline-block;
+      background-color: rgba(0,255,0,0.5);
+      color: white;
+      height: 30px;
+      border: 0;
+      float: right;
+    }
+
+    #submit:hover {
+      background-color: rgba(0,255,0,0.6);
+    }
+
+    a-scene {
+      z-index:1;
+    }
+
+    #logo {
+      user-select: none;
+      position: fixed;
+      height: 32px;
+      width: 32px;
+      left:10px;
+      bottom:10px;
+      z-index: 10;
+    }
+
+    #text_picker {
+      user-select: text;
+    }
