@@ -17,7 +17,7 @@ $correctValues = [
 ];
 
 $images = [
-    "image0.jpg",
+    "image0.jpg", // challenge 0 image
     "image1.jpg",
     ...
 ];
