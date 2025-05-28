@@ -57,7 +57,7 @@ $taunt_fr = [
     "Même un dauphin avec un globe ferait mieux.",
     "Je savais que c'était faux, mais pas à ce point...",
     "C’est pas un ping, c’est un appel au secours !",
-    "T’as visé large... très large.",
+    "T’as visé large... très large... Trop large.",
     "Je te laisse une seconde chance… ah non, c’est encore pire.",
     "Le GPS a ragequit en voyant ça."
 ];
