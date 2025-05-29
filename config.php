@@ -34,7 +34,7 @@ $lang = "en";
 $name_website = ($lang === 'fr') ? 'Outil GeoSint' : 'GeoSint Tool';									// Website Title
 $desc_website = ($lang === 'fr') ? 'GeoSint CDD (capture de drapeaux)' : 'GeoSint CTF';					// Website description
 $send_button = ($lang === 'fr') ? 'Envoyer ✅' : 'Send ✅';												// Button
-$select_bar = ($lang === 'fr') ? 'Selectionne un point (à 20m)' : 'Select a location (to within 20m)';	// Placeholder when selecting
+$select_bar = ($lang === 'fr') ? 'Selectionne un point (à '.$accepted_error.'m)' : 'Select a location (to within '.$accepted_error.'m)';    // Placeholder when selecting
 
 $taunt_fr = [
 	"Ma grand-mère ferait mieux avec son Minitel.",
