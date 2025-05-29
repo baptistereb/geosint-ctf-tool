@@ -36,7 +36,7 @@ if(isset($_GET["challId"]) AND isset($correctValues[$_GET["challId"]])) {
 
   <script>
     $(document).ready(function(){
-      OSMPICKER.initmappicker(43.570645855738995, 1.4669175446033478, 20, null);
+      OSMPICKER.initmappicker(43.570645855738995, 1.4669175446033478, <?= $accepted_error ?>, null);
 
       let latitude = 43.570645855738995
       let longitude = 1.4669175446033478
